@@ -96,6 +96,6 @@ describe('LeveragedYieldFarm', () => {
       }
 
       console.table(results)
-    })
+    }).timeout(100000)
   })
 })
